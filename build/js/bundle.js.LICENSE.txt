@@ -1,0 +1,40 @@
+/*!
+  * Bootstrap v5.2.2 (https://getbootstrap.com/)
+  * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+/*! ./Logger */
+
+/*! ./createConsoleLogger */
+
+/*! jQuery v3.6.1 | (c) OpenJS Foundation and other contributors | jquery.org/license */
+
+/*! tapable/lib/SyncBailHook */
+
+/*! webpack/lib/logging/runtime.js */
+
+/*!********************************************!*\
+  !*** ./client-src/modules/logger/index.js ***!
+  \********************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/Logger.js ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/runtime.js ***!
+  \*****************************************************/
+
+/*!*******************************************************!*\
+  !*** ./client-src/modules/logger/SyncBailHookFake.js ***!
+  \*******************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/createConsoleLogger.js ***!
+  \*****************************************************************/

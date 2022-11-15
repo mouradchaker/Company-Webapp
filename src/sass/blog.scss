@@ -1,0 +1,101 @@
+.banner-blog {
+  #banner-img {
+    background-image: url(../images/banner-blog.jpg);
+  }
+}
+
+.posts {
+  .custom-btn-1 {
+    padding: 13px 20px;
+    color: $main-color !important;
+    border: 1px solid $main-color !important;
+    font-weight: bold !important;
+    transition: all 0.5s ease;
+
+    &:hover,
+    &:focus {
+      color: $custom-color !important;
+      background-color: $main-color !important;
+      border: 1px solid $custom-color !important;
+    }
+  }
+  .search-box {
+    padding: 15px;
+    margin-top: 5px;
+    box-shadow: 0px 1px 1px 1px $custom-color;
+    border: 1px solid $custom-color;
+  }
+  .form-control {
+    &:focus {
+      border-color: $main-color !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .card {
+    .card-body {
+      .card-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $card-text-color;
+      }
+    }
+  }
+}
+
+/*------------- Blog-details- PAGE---------- */
+
+.posts-details {
+  .card {
+    .card-body {
+      .card-text {
+        color: $card-text-color;
+      }
+
+      .card-title {
+        font-weight: 800;
+        color: $main-color;
+      }
+    }
+  }
+}
+
+.post-share {
+  color: $main-color;
+}
+.one-social {
+  color: $card-text-color;
+
+  margin-left: 10px;
+}
+
+/*------------- -Add-Blog- PAGE---------- */
+.add-blog {
+  label {
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  input,
+  textarea {
+    &:focus {
+      border-color: $main-color !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .custom-btn-1 {
+    padding: 13px 20px;
+    color: $main-color !important;
+    border: 1px solid $main-color !important;
+    font-weight: bold !important;
+    transition: all 0.5s ease;
+
+    &:hover,
+    &:focus {
+      color: $custom-color !important;
+      background-color: $main-color !important;
+      border: 1px solid $custom-color !important;
+    }
+  }
+}

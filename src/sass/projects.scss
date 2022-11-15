@@ -1,0 +1,101 @@
+@import "./_variable.scss";
+
+.banner {
+  position: relative;
+  #banner-img {
+    background-image: url(../images/projects-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    height: 250px;
+  }
+
+  .overlay {
+    position: absolute;
+    background-color: rgba(65, 155, 155, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+
+.our-works {
+  .custom-btn-3 {
+    color: #363636;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    &:hover,
+    &:focus {
+      color: white;
+      background-color: $main-color;
+      border: none;
+    }
+  }
+
+  .custom-btn-1 {
+    padding: 13px 20px;
+    color: $main-color !important;
+    border: 1px solid $main-color !important;
+    font-weight: bold !important;
+    transition: all 0.5s ease;
+    &:hover,
+    &:focus {
+      color: $custom-color !important;
+      background-color: $main-color !important;
+      border: 1px solid $custom-color !important;
+    }
+  }
+}
+
+/*------------- project-details- PAGE---------- */
+
+section.project-details {
+  .card {
+    .card-body {
+      .card-title {
+        font-weight: 800;
+        color: $main-color;
+      }
+    }
+  }
+  .custom-btn-1 {
+    padding: 13px 20px;
+    color: $main-color !important;
+    border: 1px solid $main-color !important;
+    font-weight: bold !important;
+    transition: all 0.5s ease;
+    &:hover,
+    &:focus {
+      color: $custom-color !important;
+      background-color: $main-color !important;
+      border: 1px solid $custom-color !important;
+    }
+  }
+  img {
+    max-width: 100%;
+    background-color: rgb(224, 219, 219);
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+}
+
+#gallery-modal {
+  .modal-img {
+    width: 100%;
+  }
+}
